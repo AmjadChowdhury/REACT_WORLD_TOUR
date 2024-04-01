@@ -9,7 +9,7 @@ const Country = ({country}) => {
         setVisited(!visited)
     }
     return (
-        <div className="border-4 border-dotted rounded-lg p-5">
+        <div className={`border-4 border-dotted rounded-lg p-5 ${visited ? 'bg-green-400' : 'bg-yellow-300'}`}>
             <p>Name : {name.common}</p>
             <img src={flags.png} alt="" />
             <p>code : {cca3}</p>
