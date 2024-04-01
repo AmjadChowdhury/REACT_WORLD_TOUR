@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>   
-      <h1 className='text-3xl font-extrabold text-orange-800 text-center'>React world tour</h1>
+      <h1 className='text-3xl font-extrabold text-orange-800 text-center'>React world tour!</h1>
       <Countries></Countries>
       
     </>
